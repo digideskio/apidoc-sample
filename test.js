@@ -7,6 +7,18 @@
  *
  * @apiSuccess {String} firstname Firstname of the User.
  * @apiSuccess {String} lastname  Lastname of the User.
+ * 
+ * @apiErrorExample {json} Error-Response:
+ *    HTTP/1.1 404 Not Found
+ *    {
+ *      "error": "UserNotFound"
+ *    }
+ * 
+ * @apiSuccessExample {json}
+ *    HTTP/1.1 200 Okay
+ *    {
+ *      "success": true
+ *    }
  */
 
 function user() {
