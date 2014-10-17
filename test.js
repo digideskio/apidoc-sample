@@ -19,6 +19,12 @@
  *    {
  *      "success": true
  *    }
+ * 
+ * @apiSuccessExample {json}
+ *    HTTP/1.1 202 Redirect
+ *    {
+ *      "success": true
+ *    }
  */
 
 function user() {
