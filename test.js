@@ -37,6 +37,7 @@ function user() {
  * @api {post} /user Create User information
  * @apiName PostUser
  * @apiGroup User
+ * @apiSampleRequest http://api.github.com/some_path/
  * @apiDescription
  *   This is a test.
  * 
