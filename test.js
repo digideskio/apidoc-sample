@@ -1,6 +1,7 @@
 /**
  * @api {get} /user/:id Request User information
- * @apiGroup GetUser
+ * @apiName GetUser
+ * @apiGroup User
  *
  * @apiParam {Number} id Users unique ID.
  *
@@ -14,7 +15,8 @@ function user() {
 
 /**
  * @api {post} /user Create User information
- * @apiGroup PostUser
+ * @apiName PostUser
+ * @apiGroup User
  *
  * @apiSuccess {String} firstname Firstname of the User.
  * @apiSuccess {String} lastname  Lastname of the User.
