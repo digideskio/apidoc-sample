@@ -14,7 +14,7 @@
  *      "error": "UserNotFound"
  *    }
  * 
- * @apiSuccessExample {json} 200 Working
+ * @apiSuccessExample {json} 209 Working
  *    HTTP/1.1 200 Okay
  *    {
  *      "success": true
@@ -35,6 +35,10 @@ function user() {
  * @api {post} /user Create User information
  * @apiName PostUser
  * @apiGroup User
+ * @apiDescription
+ *   This is a test.
+ * 
+ *   Multiple lines!
  *
  * @apiSuccess {String} firstname Firstname of the User.
  * @apiSuccess {String} lastname  Lastname of the User.
