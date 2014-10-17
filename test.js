@@ -25,6 +25,8 @@
  *    {
  *      "success": true
  *    }
+ * 
+ * @apiSampleRequest off
  */
 
 function user() {
