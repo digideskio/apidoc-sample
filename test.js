@@ -14,13 +14,13 @@
  *      "error": "UserNotFound"
  *    }
  * 
- * @apiSuccessExample {json}
+ * @apiSuccessExample {json} 200 Working
  *    HTTP/1.1 200 Okay
  *    {
  *      "success": true
  *    }
  * 
- * @apiSuccessExample {json}
+ * @apiSuccessExample {json} 202 Redirect
  *    HTTP/1.1 202 Redirect
  *    {
  *      "success": true
