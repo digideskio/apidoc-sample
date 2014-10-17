@@ -38,7 +38,7 @@ function user() {
  * @apiDescription
  *   This is a test.
  * 
- *   Multiple lines!
+ *   Multiple **lines**!
  *
  * @apiSuccess {String} firstname Firstname of the User.
  * @apiSuccess {String} lastname  Lastname of the User.
