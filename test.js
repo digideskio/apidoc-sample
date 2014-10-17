@@ -27,7 +27,7 @@ function user() {
 }
 
 /**
- * @api {get} /order/:id Request Order information
+ * @api {get} /order/:id Request Order information!!
  * @apiName GetOrder
  * @apiGroup Order
  *
