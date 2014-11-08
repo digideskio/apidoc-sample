@@ -1,7 +1,7 @@
 /**
  * @api {get} /user/:id Request User information
  * @apiName GetUser
- * @apiGroup User
+ * @apiGroup User > Test 2
  *
  * @apiParam {Number} id Users unique ID.
  *
@@ -36,7 +36,7 @@ function user() {
 /**
  * @api {post} /user Create User information
  * @apiName PostUser
- * @apiGroup User
+ * @apiGroup User > Test
  * @apiSampleRequest http://api.github.com/some_path/
  * @apiDescription
  *   This is a test.
@@ -54,7 +54,7 @@ function user() {
 /**
  * @api {get} /order/:id Request Order information!!
  * @apiName GetOrder
- * @apiGroup Order
+ * @apiGroup User > Test
  *
  * @apiParam {Number} id Users unique ID.
  *
@@ -78,7 +78,7 @@ function user() {
 /**
  * @api {post} /order Create a New Order
  * @apiName PostOrder
- * @apiGroup Order
+ * @apiGroup User > Test 2
  *
  * @apiSuccess {String} firstname Firstname of the User.
  * @apiSuccess {String} lastname  Lastname of the User.
